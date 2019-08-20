@@ -232,7 +232,7 @@ export class RoomDetailComponent implements OnInit, AfterViewInit {
               objectType: 'feed',
               content: {
                 title: document.title,
-                description: '내용, 주로 해시태그',
+                description: 'TeamFBI - Airbnb Clone 프로젝트,
                 imageUrl: document.images[0].src,
                 link: {
                   webUrl: document.location.href,
@@ -240,13 +240,13 @@ export class RoomDetailComponent implements OnInit, AfterViewInit {
                 }
               },
               social: {
-                likeCount: 286,
-                commentCount: 45,
-                sharedCount: 845
+                likeCount: 777,
+                commentCount: 777,
+                sharedCount: 777
               },
               buttons: [
                 {
-                  title: 'Open!',
+                  title: '에어비앤비 바로보기',
                   link: {
                     mobileWebUrl: document.location.href,
                     webUrl: document.location.href
